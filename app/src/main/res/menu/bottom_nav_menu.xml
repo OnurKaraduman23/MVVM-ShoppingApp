@@ -4,17 +4,17 @@
     <item
         android:id="@+id/kampanyalarFragment"
         android:icon="@drawable/discount_icon"
-        android:title="Item" />
+        android:title="Kampanyalar" />
     <item
         android:id="@+id/kategorilerFragment"
         android:icon="@drawable/categories_icon"
-        android:title="Item" />
+        android:title="Kategoriler" />
     <item
         android:id="@+id/alisVerisFragment"
         android:icon="@drawable/store_icon"
-        android:title="Item" />
+        android:title="Alışveriş" />
     <item
         android:id="@+id/cuzdanFragment"
         android:icon="@drawable/wallet_icon"
-        android:title="Item" />
+        android:title="Cüzdan" />
 </menu>
