@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/kampanyalarFragment">
+
+    <fragment
+        android:id="@+id/alisVerisFragment"
+        android:name="com.example.proje.ui.fragment.AlisVerisFragment"
+        android:label="fragment_alis_veris"
+        tools:layout="@layout/fragment_alis_veris" />
+    <fragment
+        android:id="@+id/kampanyalarFragment"
+        android:name="com.example.proje.ui.fragment.KampanyalarFragment"
+        android:label="fragment_kampanyalar"
+        tools:layout="@layout/fragment_kampanyalar" />
+    <fragment
+        android:id="@+id/cuzdanFragment"
+        android:name="com.example.proje.ui.fragment.CuzdanFragment"
+        android:label="fragment_cuzdan"
+        tools:layout="@layout/fragment_cuzdan" />
+    <fragment
+        android:id="@+id/kategorilerFragment"
+        android:name="com.example.proje.ui.fragment.KategorilerFragment"
+        android:label="fragment_kategoriler"
+        tools:layout="@layout/fragment_kategoriler" />
+</navigation>

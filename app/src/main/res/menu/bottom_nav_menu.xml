@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/kampanyalarFragment"
+        android:icon="@drawable/discount_icon"
+        android:title="Item" />
+    <item
+        android:id="@+id/kategorilerFragment"
+        android:icon="@drawable/categories_icon"
+        android:title="Item" />
+    <item
+        android:id="@+id/alisVerisFragment"
+        android:icon="@drawable/store_icon"
+        android:title="Item" />
+    <item
+        android:id="@+id/cuzdanFragment"
+        android:icon="@drawable/wallet_icon"
+        android:title="Item" />
+</menu>
