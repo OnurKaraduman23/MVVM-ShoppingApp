@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.proje.ui.fragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/loginFragmentBottomNavigationGecis"
+            app:destination="@id/bottomNavigationHolderFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_signUpAdFragment"
+            app:destination="@id/signUpAdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpAdFragment"
+        android:name="com.example.proje.ui.fragment.SignUpAdFragment"
+        android:label="fragment_sign_up_ad"
+        tools:layout="@layout/fragment_sign_up_ad" >
+        <action
+            android:id="@+id/signUpFragmentSignUpSifreGecis"
+            app:destination="@id/signUpSifreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bottomNavigationHolderFragment"
+        android:name="com.example.proje.ui.fragment.BottomNavigationHolderFragment"
+        android:label="BottomNavigationHolderFragment" />
+    <fragment
+        android:id="@+id/signUpSifreFragment"
+        android:name="com.example.proje.ui.fragment.SignUpSifreFragment"
+        android:label="fragment_sign_up_sifre"
+        tools:layout="@layout/fragment_sign_up_sifre" >
+        <action
+            android:id="@+id/signUpSifreFragmentBottomNavigationFragmentGecis"
+            app:destination="@id/bottomNavigationHolderFragment" />
+    </fragment>
+</navigation>
